@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="app.js"></script>
+    <style>
+        .meni {
+            
+            border: 0,5px solid red;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .meni1 {
+            display: inline-block;
+            background-color: green;
+            text-align: center;
+            margin-left: 400px;
+        }
+        .button{
+            background-color:green;
+        }
+        .ambient{
+            border-radius:30px;
+        }
+        .blues{
+            border-radius:30px;
+        }
+        .clasical{
+            border-radius:30px;
+        }
+        .footer{
+            background-color:grey;
+        }
+        .hunter{
+            color:white;
+        }
+        .next{
+            color:white;
+        }
+        .pozadina{
+            background-color:black;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .wrapper {
+            background: url("download.jpg") no-repeat center;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search_box {
+            width: 50%;
+            height:80%
+            position: relative;
+        }
+
+            .search_box input[type="text"] {
+                width: 100%;
+               
+                padding: 20px;
+                padding-right: 60px;
+                box-sizing: border-box;
+                background: rgba(0,0,0,0.3);
+                border: 2px solid #fff;
+                border-radius: 10px;
+                font-size: 18px;
+                color: #fff;
+                outline: none;
+            }
+
+        .fas fa-search {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 25px;
+            color: #fff;
+            font-size: 25px;
+        }
+       
+        .sign{
+            background-color:green;
+            border-radius:30px;
+        }
+
+        
+    </style>
+</head>
+
+<body class="pozadina">
+    <div>
+        <div class="meni">  Next hunter ||||</div>
+        <button class="meni1">Home</button>
+        <button class="meni">Genres</button>
+        <button class="meni">About</button>
+        <button class="meni">Contact</button>
+        <button>Log in</button>
+       <button class="button">Sign up</button>
+
+
+    </div>
+    <br />
+
+
+
+    <div class="wrapper">
+        <input type="text" class="search_box" placeholder="Search free radio stations">
+        <button type="submit"><img src="search.png" width="10" height="10" /></button>
+        <div class="searchbtn"><i class="fas fa-search"></i></div>
+    </div>
+
+
+    <video src="video/odakle sam ja.mp4" height="200" width="200" controls="controls"></video>
+    <video src="video/videoplayback.mp4" height="200" width="200" controls="controls"></video>
+    <video src="video/auslender.mp4" height="200" width="200S" controls="controls"></video>
+
+    <h4>Genres</h4>
+    <button class="sign">Sign up</button>
+      <button class="ambient">Ambient</button>
+        <button class="blues">Blues</button>
+        <button class="clasical">Clasical</button>
+    </br>
+
+<footer class="footer">
+    <p class="hunter">Next tunerr ||||</p> 
+    </br>
+    <p class="next">2018 nextuner</p>
+
+</footer>
+
+
+</body>
+</html>
